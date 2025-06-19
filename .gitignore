@@ -1,0 +1,124 @@
+# 编译输出
+*.o
+*.ko
+*.so
+*.mod
+*.mod.c
+*.cmd
+
+# 临时生成文件
+.tmp_versions/
+*.dwo
+*.su
+*.symtypes
+*.order
+*.markers
+*.gcno
+*.gcda
+*.gcov
+
+# 构建目录（通常为 out-of-tree 编译）
+build/
+output/
+out/
+*.dtb
+*.dtbo
+
+# 自动生成文件
+Module.symvers
+modules.order
+System.map
+vmlinux
+vmlinux.lds
+bzImage
+zImage
+Image
+uImage
+initramfs_data.cpio.gz
+initramfs_data.cpio.xz
+initrd.img
+boot.img
+
+# 编译缓存和依赖
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# tags 文件
+tags
+TAGS
+cscope.*
+ncscope.*
+
+# patch 文件
+*.patch
+*.diff
+
+# Clang/LLVM LTO/PGO/ASAN/coverage 等
+*.profraw
+*.profdata
+*.gcno
+*.gcda
+
+# 编译配置输出
+.config
+.config.old
+.config.cmd
+auto.conf
+auto.conf.cmd
+include/config/
+include/generated/
+
+# BusyBox 编译（如使用）
+_busybox/
+
+# Kernel 文档编译
+Documentation/output/
+
+# 静态分析工具输出
+*.cocci*
+*.patch.*
+
+# 覆盖内核模块编译子目录
+*/modules.order
+*/Module.symvers
+*/built-in.a
+
+# VS Code 配置文件
+.vscode/
+
+# VS Code 工作区备份
+*.code-workspace
+
+# VS Code 本地调试历史记录
+.history/
+
+# 如果使用 Remote Containers / Dev Containers
+.devcontainer/
+
+# 如果使用 VS Code 的测试或调试缓存
+*.launch
+*.run.xml
+*.test.js
+
+# VS Code 拓展生成的环境文件（如 Jupyter）
+*.ipynb_checkpoints/
+
+# VS Code 插件缓存（如 Python、Jupyter）
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code 的 C/C++ 插件数据库
+.vscode/c_cpp_properties.json
+.vscode/ipch/
+*.db
+
+# 如果项目使用 Java 插件
+.vscode/.project
+.vscode/.classpath
+.vscode/.settings/
+
+# VS Code SSH 远程缓存
+.vscode-server/
